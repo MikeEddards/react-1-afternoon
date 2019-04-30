@@ -32,7 +32,7 @@ class RandomNumber extends Component {
     render(){
         return (
             <div className="puzzleBox filterStringPB">
-                <h4>Guess a number from 0-20</h4>
+                <h4>Guess a number from 0-10</h4>
                 <input placeholder="Guess what Number it will be" className="inputLine" type="text" onChange={(e)=>this.handleChange(e.target.value)} />
                 <button className="confirmationButton" onClick={ () => this.getNumber(this.state.guess)}> Guess Number</button>
                 <span className="resultsBox">Number: {this.state.random}</span>
