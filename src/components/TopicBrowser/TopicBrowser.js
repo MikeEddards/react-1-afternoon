@@ -4,6 +4,7 @@ import FilterObject from '../Topics/FilterObject'
 import FilterString from '../Topics/FilterString'
 import Palindrome from '../Topics/Palindrome'
 import Sum from '../Topics/Sum'
+import RandomNumber from '../Topics/RandomNumber'
 
 class TopicBrowser extends Component {
     render(){
@@ -14,6 +15,7 @@ class TopicBrowser extends Component {
          <FilterString />
          <Palindrome />
          <Sum /> 
+         <RandomNumber />   
         </div> 
         )
     }
